@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical documentation page</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-light" id="navbar">
+      <header class="intro">Git Documentation</header>
+      <div class="container-fluid">
+        <div id="navbarNav">
+          <ul class="navbar-nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#Introduction_to_Git">Introduction to Git</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Repository">Repository</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Commit_To_It">Commit To It</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Git_Hub">Git Hub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Remmot_Control">Remmot Control</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Forks_and_Clones">Forks and Clones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Branches_aren't_just_for_Birds">
+              Branches aren't just for Birds</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Pull_Never_Out_Of_Date">Pull Never Out Of Date</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Requesting_Your_Pull">Requesting Your Pull</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Merge_Data">Merge Data</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction_to_Git">
+        <header class="intro">Introduction to Git</header>
+        <p>It is a free and open-source version control system used to handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development.</p>
+        <p>Instll Git on your computer and configure your name and emaail. The most official build is available for download on the Git website. just go to
+          <code> https://git-scm.com/download/win
+          </code> and the download, it will start automatically.
+        </p>
+        Use the guide below (see below) for step-by-step instructions.
+        To verify your work for this problem,
+        <ul>
+          <li>
+            <code> run 'git-it verify</code>
+          </li>
+          <li>
+            run <code>'git-it'</code>
+          </li>
+        </ul>
+        <p>
+        <h5>GUIDE</h5>
+        Open the guide in your browser: <code>jlord.github.io/git-it</code>
+        <ul>
+          <li>
+            Once eit is installed, open "terminate" (aka bash, aka shel) you can verify that its really there by typing
+            <code>
+            "# git -version"
+            </code>
+          </li>
+          <li>
+            Next, configure Git so it knows who to associate your changes to 
+            <code>Set your name:
+            "$ git config -global user.name "git your name >"
+            </code>
+          </li>
+          <li>
+            Next set your emaail
+            <code>
+            "$git config - global user.email "&lt youremail@example.com >"
+            </code>
+          </li>
+        </ul>
+        </p>
+        </p>
+      </section>
+      <hr>
+      <section class="main-section" id="Repository">
+        <header>Repository</header>
+        <p>
+          Create a new Git repositoryon your computer.<br>Use the guide (see below) for step-by-step instruction<br>A "repository" is essentially a "project". You can imagin it as a project's folder will all the related<br>files insides of it. In fact, that's what it will look like in your computer anyway.
+        </p>
+        <h5>Using Terminal</h5>
+        <p>
+          Terminal is a serial computer interface for text entry and display. Instruction given to perform a task are called commands. Current computers (GUI based) uses terminal emulators such as Unix shell, BASH shell, command prompt.
+        </p>
+        <p>Terminal is a program that lets you send commands to your computer, and the text you pasted above is an example of how those commands work. In this guide, whenever you see text that looks like this, you’re reading a command. Type the commands exactly as you see them here (or copy and paste them into your Terminal) and always press return at the end.</p>
+        <h5>Step: Create a Repository</h5>
+        <p>
+          you are going to create a  new folder and initialize it as a Git repository.<br> To make things easier, name your folder what you'd name the project. How about "Hello-world"<br> you can type these commands one at a time in to your terminal window.
+        </p>
+        <p>
+          To make a new folder:
+          <code>
+          $mkdir hello-world
+          </code><br>
+          To go in to that folder:
+          <code>
+          $ cd hello-world
+          </code><br>
+          To  create a new Git instance for a project:
+          <code>
+          $ git init
+          C:\Users\vik.vanala/hello-world\.git\
+          </code><br>
+          That's it! It will just return you to a new line. If yoy want git to be double-sure that it is a Git
+        </p>
+      </section>
+      <hr>
+      <section class="main-section" id="Commit_To_It">
+        <header>Commit To It</header>
+        <p>git commit creates a commit, which is like a snapshot of your repository. These commits are snapshots of your entire repository at specific times.</p>
+      </section>
+      <hr>
+      <section class="main-section" id="Git_Hub">
+        <header>Git Hub</header>
+        <p>GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. 
+        </p>
+      </section>
+      <hr>
+      <section class="main-section" id="Remmot_Control">
+        <header>Remmot Control</header>
+        <p>
+          A remote in Git is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server. In contrast to a local repository, a remote typically does not provide a file tree of the project's current state.
+        </p>
+      </section>
+      <hr>
+      <section class="main-section" id="Forks_and_Clones">
+        <header>Forks and Clones</header>
+        <p>A fork creates a completely independent copy of Git repository. In contrast to a fork, a Git clone creates a linked copy that will continue to synchronize with the target repository.</p>
+        <p>What is git fork vs clone?
+          Forking creates your own copy of a repository in a remote location (for example, GitHub). Your own copy means that you will be able to contribute changes to your copy of the repository without affecting the original repository. Cloning makes a local copy of a repository, not your own copy.
+        </p>
+      </section>
+      <hr>
+      <section class="main-section" id="Branches_aren't_just_for_Birds">
+        <header>Branches aren't just for Birds</header>
+        <p>
+          Git repositories use branches to isolate work when needed. It's common practice when working on a project or with others on a project to create a branch to keep your changes in until they are ready. This way you can do your work while the main, commonly named 'master', branch stays stable. When your branch is ready, you merge it back into 'master'.
+        </p>
+      </section>
+      <hr>
+      <section class="main-section" id="Pull_Never_Out_Of_Date">
+        <header>Pull Never Out Of Date</header>
+        <p>
+          If you're working on something with someone you need to stay up to date with the latest state. So you'll want to pull in any changes that may have been made.
+        </p>
+        <p>
+        <h5>What does a pull request do?</h5>
+        A pull request is a proposal to merge a set of changes from one branch into another. In a pull request, collaborators can review and discuss the proposed set of changes before they integrate the changes into the main codebase.</p>
+      </section>
+      <hr>
+      <section class="main-section" id="Requesting_Your_Pull">
+        <header>Requesting Your Pull</header>
+        <p>
+          A pull request definition, or PR, is a way for developers to review and discuss changes made to code before merging it into the main branch. Basically, it's a request for the code owner to pull in your changes.
+        </p>
+        <p>
+        <h5></h5>
+        What Is a Pull Request?</h5> Understanding the Basics
+        A pull request definition, or PR, is a way for developers to review and discuss changes made to code before merging it into the main branch. Basically, it's a request for the code owner to pull in your changes.
+        </p>
+        <p>
+        <h5>The Many Benefits of Using Pull Requests</h5>
+        A pull request allows developers to review code changes before merging them into the main branch.<br>
+        <h4>Here are some of the major benefits of using pull requests:</h4>
+        <h5>Increased Collaboration</h5>
+        Pull requests facilitate discussion around code changes. Developers can comment on the changes, suggest improvements, and ask questions before the new code is merged. This collaborative process leads to higher quality code.<br>
+        <h5>Reduced Errors</h5>
+        With multiple developers reviewing and testing the code, pull requests help identify bugs, security issues, and other errors before the changes go live. This additional testing and oversight results in more stable code releases.<br>
+        <h5>Learning Opportunities</h5>
+        Reviewing other developers’ code offers a chance for developers to learn new skills and keep their knowledge up-to-date. Developers can see how their colleagues approach problems and pick up useful techniques and best practices.<br>
+        <h5>Transparency</h5>
+        Pull requests provide visibility into what changes are being made and why. All developers and stakeholders have insight into new features, bug fixes, and other updates before they are released. This transparency leads to a shared understanding of the codebase and project roadmap.<br>
+        <h5>Better Onboarding</h5>
+        For new developers, reviewing pull requests is an opportunity to quickly get up to speed on the codebase and standards. By seeing how more experienced developers make changes, new team members can ramp up faster.<br>
+        </p>
+      </section>
+      <hr>
+      <section class="main-section" id="Merge_Data">
+        <header>Merge Data</header>
+        <p>
+          Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch. Note that all of the commands presented below merge into the current branch.
+        </p>
+        <p>
+        <h5></h5>
+        What is merge request in GitHub?</h5>
+        Pull Request vs. Merge Request | Simplilearn
+        Git merge requests (MR) are the foundation of the GitLab version control platform. They are called merge requests because their final action is merging the branch with the main feature branch. Git merge combines changes into one consistent tree, just one part of what Git pull does.
+        </p>
+        <p>
+        <h5> Where is merge in GitHub?</h5>
+        Merging a pull request with a merge queue - GitHub Docs
+        On GitHub.com, navigate to the main page of the repository. Under your repository name, click Pull requests. In the "Pull Requests" list, click the pull request you would like to add to a merge queue. Click Merge when ready to add the pull request to the merge queue.
+        </p>
+      </section>
+      <hr>
+      <footer>
+        <h6>Coded by Zainab Behzad & Create &copy; 2024</h6>
+      </footer>
+    </main>
+  </body>
+</html>
