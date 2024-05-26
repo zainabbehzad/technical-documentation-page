@@ -7,7 +7,7 @@ I learned how to structure content effectively using HTML elements like headings
 I gained experience in styling the documentation page using CSS, including setting fonts, colors, spacing, and layout. I learned how to use CSS selectors, properties, and values to customize the appearance of different elements on the page.
 
 ## Demo 📸
-[Screenshot (5)](https://github.com/zainabbehzad/technical-documentation-page/assets/168668702/37b10f69-7ca0-422f-a20c-68b3a27360a8)
+![Screenshot (5)](https://github.com/zainabbehzad/technical-documentation-page/assets/168668702/37b10f69-7ca0-422f-a20c-68b3a27360a8)
 
 ## Technologies Used 🛠️
 - HTML
