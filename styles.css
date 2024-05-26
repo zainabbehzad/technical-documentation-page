@@ -4,20 +4,27 @@ body {
   color: white;
 }
 
-.navbar-light .navbar-nav .nav-linl {
+.navbar-light .navbar-nav .nav-link {
   color: #fff;
 }
 
 #navbar {
-  height: 200px;overflow: hidden;
+  position: fixed;
+  background-color: dodgerblue;
+  height: 100%;
   width: 300px;
+  overflow-x: hidden;
   background-color: #2a2f34;
+  height: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  border-color: #ad7704;
+  border-right: solid;
 }
 
 .intro {
-  font-size: 1.72em;font-weight: bold;
+  font-size: 1.72em;
+  font-weight: bold;
   margin: 0 auto;
 }
 
@@ -43,7 +50,7 @@ section {
 }
 
 code {
-  background-color: #f25d12;
+  background-color: #3d9258;
   color: white;
   border-radius: 3px;
   padding: 2px 5px;
@@ -60,9 +67,14 @@ code {
 
 .nav-link:hover, .nav-link:active {
   left: 20px;
-  background-color: #0458ad;
+  background-color: #ad7704;
   padding: 5px 10px;
   border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  color: #666;
 }
 
 @media only screen and (max-width: 768px) {
