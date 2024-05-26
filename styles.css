@@ -1,3 +1,19 @@
-h1 {
-  color: red;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-linl {
+  color: #fff;
+}
+
+#navbar {
+  background-color: dodgerblue;
+  height: 200px;overflow: hidden;
+  width: 300px;
+  background-color: #2a2f34;
+  height: 75%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
