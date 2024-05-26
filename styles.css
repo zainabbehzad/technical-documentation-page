@@ -4,14 +4,26 @@ body {
   color: white;
 }
 
+.nav-link {
+  left: 0px;
+  position: relative;
+  transition: all 2s;
+  -webkit-transition: all 2s;
+}
+
+.nav-link:hover, .nav-link:active {
+  left: 20px;
+  background-color: #ad7704;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
 }
 
 #navbar {
   position: fixed;
-  background-color: dodgerblue;
-  height: 100%;
   width: 300px;
   overflow-x: hidden;
   background-color: #2a2f34;
@@ -58,20 +70,6 @@ code {
   font-size: 1.2em;
 }
 
-.nav-link {
-  left: 0px;
-  position: relative;
-  transition: all 2s;
-  -webkit-transition: all 2s;
-}
-
-.nav-link:hover, .nav-link:active {
-  left: 20px;
-  background-color: #ad7704;
-  padding: 5px 10px;
-  border-radius: 10px;
-}
-
 footer {
   text-align: center;
   color: #666;
@@ -86,10 +84,5 @@ footer {
     border: none;
     z-index: 1;
     border-bottom: 2px solid;
-  }
 }
-
-  #main-doc {
-    width: 100%;
-    margin: 70% 10% 0 1%;
-  }
+}
