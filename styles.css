@@ -5,13 +5,14 @@ body {
 }
 
 .nav-link {
-  left: 0px;
+  left: 0;
   position: relative;
   transition: all 2s;
   -webkit-transition: all 2s;
 }
 
-.nav-link:hover, .nav-link:active {
+.nav-link:hover,
+ .nav-link:active {
   left: 20px;
   background-color: #ad7704;
   padding: 5px 10px;
@@ -84,5 +85,5 @@ footer {
     border: none;
     z-index: 1;
     border-bottom: 2px solid;
-}
+  }
 }
