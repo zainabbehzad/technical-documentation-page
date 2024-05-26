@@ -87,9 +87,9 @@ footer {
     z-index: 1;
     border-bottom: 2px solid;
   }
+}
 
   #main-doc {
     width: 100%;
     margin: 70% 10% 0 1%;
   }
-}
