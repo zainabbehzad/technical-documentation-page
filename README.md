@@ -9,11 +9,6 @@ I gained experience in styling the documentation page using CSS, including setti
 ## Demo 📸
 
 ![Screenshot (5)](https://github.com/zainabbehzad/technical-documentation-page/assets/168668702/37b10f69-7ca0-422f-a20c-68b3a27360a8)
-![Screenshot (10)](https://github.com/zainabbehzad/technical-documentation-page/assets/168668702/d80afa75-351e-4ce9-8b10-55eff2a78dde)
-![Screenshot (9)](https://github.com/zainabbehzad/technical-documentation-page/assets/168668702/eeca9ff2-c839-4f31-b273-0c4a1c01dbe1)
-![Screenshot (8)](https://github.com/zainabbehzad/technical-documentation-page/assets/168668702/f7f53c9a-9819-4a8e-a8dd-c0c8f4a0058f)
-![Screenshot (7)](https://github.com/zainabbehzad/technical-documentation-page/assets/168668702/1d7bb9c2-2731-4e40-add5-e18b4255b042)
-
 
 ## Technologies Used 🛠️
 - HTML
