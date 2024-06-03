@@ -5,7 +5,6 @@
 > 🌟 👩‍💻Technical Documentation Page is a web page that provides detailed information and instructions about a specific product, services or technology. It is typically aimed at users, developers, or other technical stakeholders who need to understand how a system or application works and how to use it effectively.💻📝🚀
 
 ## Demo 📸
-![images](images/Screenshot%20(5).png)
 
 
 ## Technologies Used 🛠️
