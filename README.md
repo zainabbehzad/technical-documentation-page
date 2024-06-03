@@ -50,21 +50,22 @@ Share and contribute: If you find this project helpful, consider sharing it with
 How to Contribute
 If you'd like to contribute to this project, follow these steps:
 
-Fork the repository: Fork the repository to your own GitHub account.
+1: Fork the repository: Fork the repository to your own GitHub account.
 
-Clone the repository: Clone the repository to your local machine.
+2: Clone the repository: Clone the repository to your local machine.
 
 git clone https://github.com/zainabbehzad/technical-documentation-page.git
-Create a new branch: Create a new branch with a descriptive name to work on your contribution.
+
+3: Create a new branch: Create a new branch with a descriptive name to work on your contribution.
 
     . git checkout -b feature/new-feature
-Make your changes: Make your changes to the project in your local environment. Ensure that your changes are in line with the project's coding conventions and style guidelines.
+4: Make your changes: Make your changes to the project in your local environment. Ensure that your changes are in line with the project's coding conventions and style guidelines.
 
-Commit your changes: Once you've made your changes, commit them to your branch with clear and descriptive commit messages.
+5: Commit your changes: Once you've made your changes, commit them to your branch with clear and descriptive commit messages.
 
     . git commit -m 'Add new feature'
-Push your changes: Push your changes to your forked repository on GitHub.
+6: Push your changes: Push your changes to your forked repository on GitHub.
 
     . git push origin feature/new-feature
     
-Submit a pull request: Go to the original repository on GitHub and submit a pull request with your changes.
+7: Submit a pull request: Go to the original repository on GitHub and submit a pull request with your changes.
