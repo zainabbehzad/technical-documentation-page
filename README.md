@@ -21,7 +21,7 @@ To install and set up this project, simply follow these steps:
 
 Clone the repository:
 
-git clone (https://github.com/zainabbehzad/technical-documentation-page.git)
+    git clone (https://github.com/zainabbehzad/technical-documentation-page.git)
 
 🎉 Once you've cloned the repository, you're all set to start exploring and using the project! If you encounter any issues or have questions, feel free to reach out for assistance. 🚀
 
