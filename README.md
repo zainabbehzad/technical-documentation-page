@@ -5,7 +5,10 @@
 > 🌟 👩‍💻Technical Documentation Page is a web page that provides detailed information and instructions about a specific product, services or technology. It is typically aimed at users, developers, or other technical stakeholders who need to understand how a system or application works and how to use it effectively.💻📝🚀
 
 ## Demo 📸
+![Screenshot (18)](https://github.com/zainabbehzad/technical-documentation-page/assets/168668702/3f07cafc-ff27-4393-b179-ee9ffb98d42e)
 
+
+[Live Dem](https://zainabbehzad.github.io/technical-documentation-page/)
 
 ## Technologies Used 🛠️
 - HTML
