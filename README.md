@@ -45,8 +45,9 @@ Share and contribute: If you find this project helpful, consider sharing it with
 
 ## Author 👩‍💻
 
-- LinkedIn: [Zainab Behzad]
+- LinkedIn: [Zainab Behzad](https://www.linkedin.com/in/zainab-behzad-3126692b5)
 - Email: [zainabbehzad03@gmailcom)
+- Github: 
 
 ## Contributing 🤝
 
