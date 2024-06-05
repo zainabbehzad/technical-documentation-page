@@ -8,7 +8,7 @@
 ![Screenshot (18)](https://github.com/zainabbehzad/technical-documentation-page/assets/168668702/3f07cafc-ff27-4393-b179-ee9ffb98d42e)
 
 
-[Live Dem](https://zainabbehzad.github.io/technical-documentation-page/)
+[Live Demo](https://zainabbehzad.github.io/technical-documentation-page/)
 
 ## Technologies Used 🛠️
 - HTML
